@@ -1,4 +1,11 @@
 #pragma once
+typedef struct HeadList
+{
+    int value;
+    Node* next;
+    
+} HeadList;
+
 typedef struct Node
 {
     int value;
